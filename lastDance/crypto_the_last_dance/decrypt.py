@@ -21,3 +21,4 @@ if __name__ == "__main__":
     message_xor = bytes(x ^ y for x, y in zip(message, message_encrypted_bytes))
     flag_xor = bytes(x ^ y for x, y in zip(message_xor, flag_encrypted_bytes))
     print(flag_xor)
+    #Test
